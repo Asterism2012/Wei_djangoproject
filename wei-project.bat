@@ -19,10 +19,10 @@ set d=%date:~8,2%
 
 
 rem 建立项目 进入项目
-django-admin startproject meiduo_mall%Y%_%m%_%d%
+django-admin startproject projectname%Y%_%m%_%d%
 
 rem 建立apps （应用）文件夹与 docs文件夹 libs(第三方)文件夹 utils（自己写的）文件夹 还有script
-cd meiduo_mall%Y%_%m%_%d%
+cd projectname%Y%_%m%_%d%
 
 
 md docs
@@ -43,7 +43,7 @@ cd..
 
 rem 建立settings文件夹，我不会替你改manage.py 文件的
 
-cd meiduo_mall%Y%_%m%_%d%
+cd projectname%Y%_%m%_%d%
 md settings
 
 
