@@ -1,8 +1,8 @@
 @echo off
 echo ----------------------------------------
-echo 16点21分 2018-11-13
-echo @博客园 魏泯
-
+echo UpdateTime: 16点21分 2018-11-13
+echo From: 魏泯
+echo Version: v1.1
 
 echo 关闭回显
 echo 使用方法 在Django虚拟环境内使用
